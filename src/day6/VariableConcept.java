@@ -28,6 +28,9 @@ public class VariableConcept {
         //2. dataType variableName
         //   variableName=value;
 
+        String j;
+        j= "Ashish";
+
 
         //1 byte = 8 bits
     }

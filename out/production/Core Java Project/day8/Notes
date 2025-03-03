@@ -1,0 +1,52 @@
+Statements:
+1. if statement
+
+    if(condition)
+    {
+        Code here will execute only if the condition mentioned is true
+    }
+
+    //In Case of Multiple if statement:
+       -Performance is affected
+       -What to do if condition is false, is not managed....
+
+2. if else statement
+        if(condition)
+        {
+            Code here will execute only if the condition mentioned is true
+        }
+        else
+        {
+            Code here will execute only if the condition mentioned is false
+        }
+
+        ==================================================
+        ===> if-else only to check single condition
+
+
+3. if-elseIf Statement: To check Multiple Conditions
+   if(condition1)
+   {
+      this will execute if condition 1 is true
+   }
+   else if(condition 2)
+   {
+      this will execute if condition 2 is true
+   }
+
+   else if(condition 3)
+   {
+         this will execute if condition 3 is true
+   }
+
+   ..
+   ...
+   ...
+   else if(condition n)
+   {
+            this will execute if condition n is true
+   }
+   else
+   {
+        this will be executed if none of the above condition is true
+   }
