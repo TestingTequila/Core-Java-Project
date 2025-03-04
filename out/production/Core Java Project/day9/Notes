@@ -1,0 +1,19 @@
+Loops
+-Repetitive Tasks
+-Group of something and you wish to perform some action over that group...
+
+-while loop
+  define a variable
+  while(condition)
+  {
+      this code will execute only if condition is true
+      I/D;
+  }
+-for loop
+  for(define a variable;condition;I/D)
+  {
+      this code will execute only if condition is true
+
+  }
+
+-advanced for loop
