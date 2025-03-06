@@ -1,0 +1,28 @@
+//Variables: hold single value
+   //data types
+         //Primitive data types
+         //Non-primitive data types
+
+   //Statements: Decisions
+        //if-else statement
+        //if-else-if statement
+        //switch statement[long,float, double, boolean: range verification, &&]
+
+   //Loops: Repetitive Tasks
+        //while loop[not sure about the number of iterations]
+        //for loop  [we are sure about number of iterations]
+        //advanced for loop [for each loop]
+          for(dataType an: nameOfTheArray)
+          {
+            //Action
+          }
+
+   //Arrays: hold multiple values
+     1. dataType[] arrayName={value1,value2, value3, value4.......valueN};
+     2. dataType[] arrayName = new dataType[countOfValuesYouWantToStore];
+
+   =========================================================================================
+   a) dataType variableName=value;
+
+   b) dataType variableName;
+      variableName=value;
