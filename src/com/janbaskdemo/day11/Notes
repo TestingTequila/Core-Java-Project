@@ -1,0 +1,42 @@
+Class and Object
+
+Variables: holding/Storing value [Box, container that can hold one value at a time]
+Statements: To make decisions
+Loops: To perform repetitive tasks
+Arrays: holding/Storing multiple values [Box, container that can hold multiple values at a time]
+Class: A class is a template
+Object: Every copy of the template is called its object
+  -> We have created 3 copies of Resume Template
+  -> We have created 3 objects of resume class
+
+  1- Identify the file you want to copy
+  2- Select the file and do right click
+  3- Select copy option
+  4- IDENTIFY THE LOCATION WHERE YOU WANT TO CREATE YOUR COPY
+  5- Right click on the location identified
+  6- Select Paste Option
+  7- Select the pasted file, Right click and select Rename option
+  8- Rename as per your choice
+  9- Save
+
+
+  =======================================================================
+
+ NameOfClassWhoSeCopyYouWishToCreate nameYouGiveToTheCopy = new NameOfClassWhoSeCopyYouWishToCreate();
+ //Resume
+ Resume nameYouGiveToTheCopy = new Resume();
+
+ //Employee
+  Employee nameYouGiveToTheCopy = new Employee();
+
+ //Company
+  Company nameYouGiveToTheCopy = new Company();
+
+ //Abacus
+ Abacus abc = new Abacus();
+
+ Day11
+ Day11 abn = new Day11();
+
+ referenceVariableName = null; [This will break its original connection and will point to null]
+ we can create object without reference variable but this should be avoided as this will suffocate the heap memory
