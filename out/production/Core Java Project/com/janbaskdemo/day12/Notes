@@ -1,0 +1,43 @@
+Methods:
+
+Tea:
+   Sugar powder
+   Ginger powder
+   Milk powder
+   Water
+
+   That purpose is your method
+   Method: Action performed over class variables
+
+   -------------------------------------------------------------------------------
+   accessModifier[public, private, protected] returnType[void, dataTypes] methodName(can/t parameters)
+   {
+     Action to performed over variables
+   }
+
+
+   public void makingTea()
+   {
+     Tea myTea=Sugar powder+inger powder+Milk powder+Water;
+   }
+
+
+
+
+// Global Variable/Class level Variables:
+   // want it to be used by multiple methods
+   // want multiple methods to use the same value of variable
+   // When we want to share the variable and its value
+
+// Parameters:
+      // don't want variables to be used by multiple methods
+      // don't want multiple methods to use the same value of variable
+      // When we don't want to share the variable and its value
+
+// Local Variable:
+     // don't want variables to be used by multiple methods
+     // don't want multiple methods to use the same value of variable
+     // When we don't want to share the variable and its value
+     // When we want the value of the variable to be fixed and don't offer the flexibility of changing it
+
+
