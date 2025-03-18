@@ -1,0 +1,33 @@
+Learn programming - Certain rules of Programming [OOPs Concepts]
+-Encapsulation
+   -Data Hiding
+-Polymorphism
+   -method overloading
+   -method overriding
+-Inheritance
+   -Abstraction
+   -Interface
+
+-Data Security, code will be less vulnerable
+-reusability of the code
+-better code designing
+-Hide or show your code as per the requirement
+-Easy to manage
+
+
+Polymorphism: Poly --> Many
+              Morph --> forms
+
+Mobashir ---> Friends ---> Behave a like a friend
+         ---> Parents ---> Behave like Son
+         ---> Teacher ---> Behave Like a student
+         ----> GF     ---> Behave like a partner
+
+Method Overloading: In a class we can have two or more method with the same name provided their signature is different
+ How can we make signature different
+                 -By changing the data types of Parameters
+                 -By changing the order of parameters
+                 -By changing the count of parameters
+
+ Method overloading happens within the same class
+   -Compile time Polymorphism

@@ -1,0 +1,6 @@
+Common property value should be made static
+static does not belong to objects
+Since static does not belongs to objects, we should not call static variable/method using object reference variable
+
+static belongs to class
+Since static belongs to objects Class, we should call static variable/method using Class Name directly
