@@ -4,3 +4,13 @@ Since static does not belongs to objects, we should not call static variable/met
 
 static belongs to class
 Since static belongs to objects Class, we should call static variable/method using Class Name directly
+
+We can call non static variables/methods inside static methods using objects
+
+We can call static variables and methods inside non static methods using class name directly
+
+----------------------------------------------------------------------------------------------------
+•	Internally method calling of non-static methods [can be called directly or through object reference]
+•	Internally method calling of static method [Can be called directly or through class name]
+•	Static method calling non-static method [Through Object]
+•	Non-static method calling static method [ Through class name]

@@ -47,7 +47,5 @@ public class StaticNonStaticConcepts
         obj1.nonStaticString = "Kerrie";
         obj1.nonStaticM2();
 
-
-
     }
 }
