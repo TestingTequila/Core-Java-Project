@@ -1,0 +1,26 @@
+Constructor: This construct the default value for global variables
+
+
+Constructor is used to initialize objects
+
+
+
+A
+A constructor in Java can not be abstract, final, static, or Synchronized.
+
+----------------------------------------------------------------
+Why constructor is a method: because it performs action over class variable just like the methods
+Why constructor in Java is a special method
+ -because unlike methods its action is already fixed, to assign default value to variables
+ -A method can have any name but a constructors name is always same as the name of the class in which it exists
+ -A constructor cannot have return type including void
+ -We need to call a method whereas a constructor is called automatically the moment we create object of that class
+
+It can be used to set default/initial values for object attributes
+
+ The constructor(s) of a class must have the same name as the class name in which it resides.
+ The constructor(s) of a class will not have any return type including void
+ Access modifiers can be used in constructor declaration to control its access i.e which other class can call the constructor.
+ The constructor is called when an object of a class is created
+
+ -------------------------------------------------------------------------------------

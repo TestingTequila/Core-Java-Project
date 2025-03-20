@@ -22,3 +22,5 @@ It can be used to set default/initial values for object attributes
  The constructor(s) of a class will not have any return type including void
  Access modifiers can be used in constructor declaration to control its access i.e which other class can call the constructor.
  The constructor is called when an object of a class is created
+
+ -------------------------------------------------------------------------------------

@@ -1,0 +1,38 @@
+OOPs:
+1- Encapsulation: Encapsulation in Java is a mechanism of wrapping the(variables) and  (methods) together as a single unit.
+   -Data Hiding
+   //1st way to implement Encapsulation
+   1. variables private
+   2. setter methods
+   3. getter methods
+
+   //2nd Way to implement Encapsulation
+    1. variables private
+    2. Constructors
+    3. getter methods
+
+   //3nd Way to implement Encapsulation
+    1. variables private
+    2. Constructors- setting the value
+    3. getter methods - getting the value
+    4. setter methods - Updating the value
+
+    //4th Way to implement Encapsulation
+     1. private methods
+     2. public methods
+
+Constructor: multiple values
+           : initializing the value of a variable
+
+Setter: one value at a time
+        Update the value of variable
+
+        WE should not use Setter or Constructor for applying login within it
+
+2- Polymorphism
+    -Method Overloading[Done]
+    -Method Overriding
+
+3- Inheritance
+    -Abstraction
+    -Interface
