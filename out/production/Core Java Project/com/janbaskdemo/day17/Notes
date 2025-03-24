@@ -1,0 +1,5 @@
+Usage of this keyword:
+1. used to differentiate between global variable and parameter
+2. used in builder Pattern
+3. Used to call one constructor within other constructor
+4. Used to call one method inside other method
