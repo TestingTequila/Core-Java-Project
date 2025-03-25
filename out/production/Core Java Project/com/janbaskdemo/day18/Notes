@@ -1,0 +1,16 @@
+    //1. Constructor
+         =>setting value of Global variables
+         =>multiple variable values is set in one go
+         =>will have to provide values to all the parameters of the constructor
+
+    //2. setter method-->
+         a) assigning
+            =>setting value of Global variables
+            =>One variable value is set at a time
+            =>Can assign value to the variables which we wish to
+         b) updating the values
+
+    //3. Builder Pattern
+       => setting the value
+
+    //4. Pass By Reference-->updating the values
