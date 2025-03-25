@@ -1,4 +1,4 @@
-package com.janbaskdemo.day18;
+package com.janbaskdemo.day18.revision;
 
 public class TestRegistration {
     public static void main(String[] args) {

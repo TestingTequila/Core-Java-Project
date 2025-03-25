@@ -1,4 +1,4 @@
-package com.janbaskdemo.day18;
+package com.janbaskdemo.day18.revision;
 
 public class RegistrationUsingBuilderPattern {
     private String fName;

@@ -1,6 +1,6 @@
-package com.janbaskdemo.day18;
+package com.janbaskdemo.day18.revision;
 
-public class RegistrationUsingSetter {
+public class RegistrationUsingConstructorsAndSetters {
     private String fName;
     private String lName;
     private int age;
@@ -35,6 +35,29 @@ public class RegistrationUsingSetter {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    RegistrationUsingConstructorsAndSetters(String fName, String lName, int age, char gender, double salary, String email, String password) {
+        this.fName = fName;
+        this.lName = lName;
+        this.age = age;
+        this.gender = gender;
+        this.salary = salary;
+        this.email = email;
+        this.password = password;
+    }
+
+    RegistrationUsingConstructorsAndSetters(String fName, String lName, String email, String password) {
+        this.fName = fName;
+        this.lName = lName;
+        this.email = email;
+        this.password = password;
+    }
+
+    RegistrationUsingConstructorsAndSetters(int age, char gender, double salary) {
+        this.age = age;
+        this.gender = gender;
+        this.salary = salary;
     }
 
     public void display() {
