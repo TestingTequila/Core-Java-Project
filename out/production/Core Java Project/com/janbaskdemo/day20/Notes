@@ -1,0 +1,10 @@
+A class cannot have more than one parent CLASS
+Method overriding: Two classes that share P-C relationship, the child will inherit parent class property and can override it
+                   To check if a method is overridden or not, we use @Override annotation
+
+//Use of final keyword:
+  variable as final --> cannot override it value
+  method as final   --> cannot override the method
+  class as final    --> cannot be inherited or can't be a parent class
+
+  static methods/variables can be inherited but can't be overridden
