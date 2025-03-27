@@ -62,15 +62,15 @@ public class TestCar {
         System.out.println("----------Test static name Variable-------------");
 
         Car car3 = new Car();
-        System.out.println(Car.name); //Jason
+        //System.out.println(Car.name); //Jason
         System.out.println(car3.name); //Jason
 
         BMW bmw2 = new BMW();
-        System.out.println(BMW.name); //Roger
+        //System.out.println(BMW.name); //Roger
         System.out.println(bmw2.name); //Roger
 
         Car car4 = new BMW();
-        System.out.println(Car.name); //Jason
+        //System.out.println(Car.name); //Jason
         System.out.println(car4.name); //Jason
 
 

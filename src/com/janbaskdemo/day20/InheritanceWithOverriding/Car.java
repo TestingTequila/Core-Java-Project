@@ -2,7 +2,7 @@ package com.janbaskdemo.day20.InheritanceWithOverriding;
 
 public class Car extends Vehicle {
 
-    static String  name = "Jason";
+    String  name = "Jason";
     public void start() {
         System.out.println("Car Start.........");
     }

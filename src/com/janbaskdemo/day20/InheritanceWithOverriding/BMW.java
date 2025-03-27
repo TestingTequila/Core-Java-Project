@@ -1,7 +1,7 @@
 package com.janbaskdemo.day20.InheritanceWithOverriding;
 
 public class BMW extends Car {
-    static String  name = "Roger";
+    String  name = "Roger";
     public void autoParking() {
         System.out.println("BMW auto parking");
     }
