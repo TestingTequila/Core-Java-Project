@@ -60,6 +60,15 @@ public class FortisHospital extends Hospital implements USMedicalAssociation, UK
         System.out.println("fh----roboticServices");
     }
 
+    public static void taxCalculation() {
+        System.out.println("Fortis Hospital --taxCalculation");
+    }
+
+    @Override
+    public void getMedicalServices() {
+        System.out.println("FortisHospital --getMedicalServices");
+    }
+
 // cannot override medicalNews as this is final
 //    @Override
 //    public void medicalNews() {
