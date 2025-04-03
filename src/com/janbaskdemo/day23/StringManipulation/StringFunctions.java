@@ -83,6 +83,11 @@ public class StringFunctions {
         System.out.println(Arrays.toString(letters));
 
 
+        String s = "                            This is Java  ";
+        System.out.println(s);
+        System.out.println(s.trim());
+
+
 
     }
 
