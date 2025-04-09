@@ -1,0 +1,95 @@
+Selenium: Java + Element Locators[HTML]
+1. What is Html: This is used to design[create] the web elements on a web page
+2. Structure of html:
+
+    1. <tagName attribute1="value1" attribute2 ="value2" attribute3 ="value3".........>
+    2. <tagName attribute1="value1" attribute2 ="value2" attribute3 ="value3".........>innerText</tagName>
+
+    <input type="text" name="email" value="" placeholder="E-Mail" id="input-email" class="form-control">
+    tagName: input
+    how many attributes =6
+    E-Mail: placeholder
+    Which attribute has the value as input-email: id
+
+    <input type="submit" value="Login" class="btn btn-primary">
+    tagName = input
+    how many attributes =3
+        Login: value
+        Which attribute has the value as submit: type
+
+    <a href="https://janbaskdemo.com/index.php?route=account/forgotten">Forgotten Password</a>
+    tagName: a
+        how many attributes =1
+        href: https://janbaskdemo.com/index.php?route=account/forgotten
+        innerText: Forgotten Password
+
+        <a href="https://janbaskdemo.com/index.php?route=account/register" class="btn btn-primary">Continue</a>
+        tagName: a
+        How many attributes: 2
+        what is value of class attribute= btn btn-primary
+        innerText:Continue
+
+         <button class="btn btn-link btn-block language-select" type="button" name="en-gb"><img src="catalog/language/en-gb/en-gb.png" alt="English" title="English" /> English</button>
+
+         Element Locators: This is a way to locate the web element[This is a way to know the address of any web element]
+         Xpath
+           -Absolute XPath:traversing the entire Dom starting from root note, indirectly accessing the web element
+           -Relative Xpath:Directly accessing the Web Element's address
+             //tagName[@attribute='value']
+             //tagName[text()='innerText']
+             //tagName[contains(@attribute/text(), 'attributeValue/innerText')]
+
+ Absolute Xpath---> Email TextBox: /html/body/div[2]/div/div/div/div[2]/div/form/div[1]/input ---> traversing the entire Dom starting from root note
+
+ <input type="text" name="email" value="" placeholder="E-Mail" id="input-email" class="form-control">
+
+              //input[@id='input-email']
+              //input[contains(@id, 'input-email')]
+
+ <input type="password" name="password" value="" placeholder="Password" id="input-password" class="form-control">
+              //input[@name='password']
+              //input[contains(@name, 'password')]
+
+ <input type="submit" value="Login" class="btn btn-primary">
+              //input[@type='submit']
+              //input[contains(@type, 'submit')]
+
+<a href="https://janbaskdemo.com/index.php?route=account/forgotten">Forgotten Password</a>
+             //a[@href='https://janbaskdemo.com/index.php?route=account/forgotten']
+             //a[text()='Forgotten Password']
+             //a[contains(@href, 'https://janbaskdemo.com/index.php?route=account/forgotten')]
+             //a[contains(text(), 'Forgotten Password')]
+
+<select name="country_id" id="input-country" class="form-control hasCustomSelect" style="appearance: menulist-button; width: 744px; position: absolute; opacity: 0; height: 36px; font-size: 12px;">
+                             //select[@id='input-country']
+
+                             //select[contains(@id, 'input-country')]
+
+ <input type="radio" name="newsletter" value="1">
+                 //input[@name='newsletter'and @type='radio' and @value=1]
+
+//2. Parent Tag ---> Child Tag
+
+      //aside[@id='column-right']
+
+<input type="submit" name="ctl00$MainContent$btnDelete" value="Delete Selected" id="ctl00_MainContent_btnDelete" class="btnDeleteSelected">
+
+//3. Child ---> Direct Parent
+     i) /..
+     ii)/parent::parentTagName
+     https://www.orangehrm.com/30-day-free-trial
+     Ex: //option[@selected ='selected']/parent::select/parent::div/parent::div/parent::fieldset/..
+
+//4. Child ---> Indirect Parent
+     i)/ancestor::ancestorTagName
+
+//5. sibling to sibling traversal
+      i) /preceding-sibling::precedingSiblingTagName
+      ii)/following-sibling::followingSiblingTagName
+
+//6. Position or Indexing in Xpath
+     i)  (xPath)[index]
+     ii) (xPath)[position()=index]
+
+/ and //
+parent, ancestor, following-sibling, preceding-sibling
